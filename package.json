@@ -1,14 +1,12 @@
-"scripts": {
-  "predeploy":"npm run build",
-  "deploy":"gh-pages -d build"
-}
-
 {
+  "homepage";"J-a-crypto/inventory-management2/",
   "name": "inventory-management",
   "version": "0.1.0",
   "private": true,
   "scripts": {
     "dev": "next dev",
+    "predeploy":"npm run build",
+    "deploy":"gh-pages -d build",
     "build": "next build",
     "start": "next start",
     "lint": "next lint"
